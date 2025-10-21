@@ -24,7 +24,6 @@ body {
     border-radius: 0.5rem;
     max-height: 40.375rem;
     height: auto;
-
 }
 
 .image-container {
@@ -149,6 +148,11 @@ li {
     .page-container {
         flex-direction: column;
         padding: 0.9rem;
+    }
+
+    .image-container img{
+        max-height: 30rem;
+        
     }
 
 }
