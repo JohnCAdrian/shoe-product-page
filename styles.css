@@ -167,6 +167,10 @@ li {
         max-width: 100%;
     }
 
+    .product-info p {
+        font-size: 1rem;
+    }
+    
     .cart-info {
         max-width: 100%;
     }
