@@ -121,6 +121,10 @@ li {
   font-weight: 300;
 }
 
+.cart-info{
+    display: flex;
+    flex-direction: row;
+}
 .cart-info .add-cart {
     background-color: #652CD1;
     color: #f9fafb;
@@ -152,7 +156,8 @@ li {
     }
 
     .image-container img{
-        max-height: 33rem;   
+        max-height: 33rem;  
+        max-width: 100%; 
     }
 
     .Nav-bar {
@@ -170,8 +175,9 @@ li {
     .product-info p {
         font-size: 1rem;
     }
-    
+
     .cart-info {
         max-width: 100%;
+        align-items: center;
     }
 }
