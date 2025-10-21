@@ -154,4 +154,12 @@ li {
         max-height: 33rem;   
     }
 
+    .Nav-bar {
+        margin-bottom: 1.5rem;
+    }
+
+    .header h1 {
+        max-width: 100%;
+    }
+
 }
