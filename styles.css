@@ -147,11 +147,11 @@ li {
     .page-container {
         flex-direction: column;
         padding: 0.9rem;
+        gap: 1rem;
     }
 
     .image-container img{
-        max-height: 33rem;
-        
+        max-height: 33rem;   
     }
 
 }
