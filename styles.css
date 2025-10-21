@@ -148,5 +148,7 @@ li {
 @media screen and (max-width: 600px) {
     .page-container {
         flex-direction: column;
+        padding: 1rem;
     }
+
 }
