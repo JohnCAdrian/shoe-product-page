@@ -163,4 +163,11 @@ li {
         max-width: 100%;
     }
 
+    .product-info {
+        max-width: 100%;
+    }
+
+    .cart-info {
+        max-width: 100%;
+    }
 }
