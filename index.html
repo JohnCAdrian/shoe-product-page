@@ -1,77 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="Description" content="A shoe product page">
+  <link rel="icon" href="resources/favicon.ico" type="image/x-icon" sizes="96x96"/>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+  <title>Shoe Product Page | devChallenges.io</title>
+</head>
 
-    <link
-      rel="icon"
-      href="resources/favicon.ico"
-      type="image/x-icon"
-      sizes="96x96"
-    />
+<body>
 
-    <title>Shoe Product Page | devChallenges.io</title>
-
-    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        height: 100vh;
-      }
-
-      .author-info {
-        font-size: 14px;
-        text-align: center;
-        margin-top: 16px;
-        color: rgb(55, 65, 81);
-      }
-
-      .author-info a {
-        text-decoration: none;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- 
-    
-    Home - Products - Sneakers
-  
-    Nike Air Zoom Pegasus 38 for Running Men
- 
-    The Nike Air Zoom Pegasus 38 is a high-performance running shoe designed for speed and agility. With its lightweight and responsive midsole, this shoe provides a smooth ride and excellent cushioning. The Pegasus 38 features a full-length Zoom Air unit for added bounce and a more natural stride. The upper is made of a breathable mesh material with a supportive Flyknit construction for a snug and comfortable fit.
- 
-    Hightlights
- 
-    Lightweight and Responsive Midsole.
- 
-    Full-Length Zoom Air Unit.
- 
-    Breathable Mesh Uppe.
- 
-    COLOR
- 
-    Black
- 
-    Size
- 
-    $59.00
- 
-    Add to cart
- 
-    Add to wishlist
-  -->
-
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+  <div class="page-container">
+    <!--shoe image-->
+    <div class="image-container">
+      <img src="resources/shoe_image@3x.jpg" alt="shoe_image" class="shoe-image">
     </div>
-  </body>
+
+    <div class="page-content">
+      <!--Navigation-->
+      <div class="Nav-bar">
+        <span class="nav-bar_previous">Home - Products <span class="nav-bar_active"> - Sneakers </span> </span>
+      </div>
+      <!--Header-->
+      <div class="header">
+        <h1>Nike Air Zoom Pegasus 38 for Running Men</h1>
+        <p>
+          The Nike Air Zoom Pegasus 38 is a high-perfomance running shoe designed for speed and agility.
+          With its lightweight and responsive midsole, this shoe provides a smooth ride and excellent
+          cushioning. The Pegasus 38 features a full-length Zoom Air unit for added bounce and a more 
+          natural stride. The upper is made of a breathable mesh material with a supportive Flyknit
+          construction for a snug and comfortable fit. 
+        </p>
+      </div>
+      <!--Highlights-->
+      <div class="highlight-content">
+        <p>Highlights:</p>
+        <ul class="highlight-list">
+          <li>Lightweight and Responsive Midsale.</li>
+          <li>Full-length Zoom Air Unit.</li>
+          <li>Breathable Mesh Uppe.</li>
+        </ul>
+      </div>
+      <!--Price and features-->
+      <div class="product-info">
+        <div class="product-container">
+          <span class="product-label">COLOR</span>
+          <span class="product-label">SIZE</span>
+          <span class="product-feature">Black</span>
+          <span class="product-feature">42</span>
+        </div>
+        <p>$59.00</p>
+      </div>
+      <!--Carting info-->
+      <div class="cart-info">
+        <button type="button" class="add-cart">Add to cart</button>
+        <button  type="button" class="add-wish"><i class="fa-regular fa-heart heart-icon"></i>
+          Add to wishlist
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="author-info">
+    Coded by <a href="#">Chibuikem Adrian</a> | Challenge by
+    <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+      >devChallenges.io</a
+    >.
+  </div>
+</body>
 </html>
